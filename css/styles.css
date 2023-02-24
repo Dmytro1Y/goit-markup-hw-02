@@ -11,9 +11,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   color: var(--dark-color);
+  background: var(--white-color);
 }
 
 /*---------Remove list markers---------*/
@@ -38,6 +37,8 @@ body {
   font-weight: 800;
   font-size: 18px;
   color: var(--dark-color);
+  line-height: 1.33;
+  letter-spacing: 0.03em;
 }
 
 .logo .web {
@@ -52,6 +53,8 @@ body {
   font-weight: 800;
   font-size: 18px;
   color: var(--litemode-color);
+  line-height: 1.3125;
+  letter-spacing: 0.03em;
 }
 
 .logo-footer .web {
@@ -62,9 +65,10 @@ body {
 
 .nav {
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   color: var(--dark-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav:hover,
@@ -73,11 +77,15 @@ body {
 }
 
 /*-----------------Address-----------------*/
+.address {
+  font-style: normal;
+}
 
 .add {
   text-decoration: none;
-  font-style: normal;
   color: var(--body-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .email:hover,
@@ -90,28 +98,40 @@ body {
   font-weight: var(--header-font-weight);
   font-size: 56px;
   color: var(--white-color);
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .header-second {
   font-weight: var(--header-font-weight);
   font-size: 36px;
   color: var(--dark-color);
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .head {
   font-weight: 500;
   font-size: 20px;
   color: var(--dark-color);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /*-----------------Text-----------------*/
 
 .text {
   color: var(--body-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .text-footer {
   color: var(--accent-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*--------------Backgrounds--------------*/
@@ -141,11 +161,15 @@ body {
   font-size: 16px;
   cursor: pointer;
   color: var(--brand-color);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: inherit;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
   background: var(--button-hover-color);
   color: var(--white-color);
+  border-color: transparent;
 }
 
 .button-order {
@@ -155,6 +179,9 @@ body {
   font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: inherit;
 }
 
 .button-order:hover,
