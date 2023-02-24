@@ -6,7 +6,6 @@
   --accent-color: #e7e9fc;
   --white-color: #ffffff;
   --button-hover-color: #404bbf;
-  --header-font-weight: 700;
 }
 
 body {
@@ -33,7 +32,6 @@ body {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   color: var(--dark-color);
@@ -49,7 +47,6 @@ body {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   color: var(--litemode-color);
@@ -76,6 +73,10 @@ body {
   color: var(--button-hover-color);
 }
 
+.current {
+  color: var(--button-hover-color);
+}
+
 /*-----------------Address-----------------*/
 .address {
   font-style: normal;
@@ -95,7 +96,6 @@ body {
 /*-----------------Headers-----------------*/
 
 .header {
-  font-weight: var(--header-font-weight);
   font-size: 56px;
   color: var(--white-color);
   text-align: center;
@@ -104,7 +104,6 @@ body {
 }
 
 .header-second {
-  font-weight: var(--header-font-weight);
   font-size: 36px;
   color: var(--dark-color);
   line-height: 1.11;
@@ -120,12 +119,20 @@ body {
   letter-spacing: 0.02em;
 }
 
+.head-team {
+  text-align: center;
+}
+
 /*-----------------Text-----------------*/
 
 .text {
   color: var(--body-text-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.text-team {
+  text-align: center;
 }
 
 .text-footer {
@@ -177,6 +184,7 @@ body {
   background: var(--brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-size: 16px;
+  font-weight: 500;
   border-radius: 4px;
   cursor: pointer;
   line-height: 1.5;
